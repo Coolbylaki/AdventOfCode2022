@@ -1,8 +1,6 @@
 // Space is separation from other elf inventory
 const fs = require("fs")
 // Calculate each elf calorie count in inventory and find the elf who is carrying most calories
-
-// PART 1
 function getCalories() {
     fs.readFile("./input.txt", (err, data) => {
         const calories = data.toString().split(/\r?\n/)
