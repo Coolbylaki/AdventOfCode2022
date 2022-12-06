@@ -20,6 +20,5 @@ function getCalories() {
         console.log(maxCalorie)
     })
 }
-getCalories()
 
-//PART 2
+getCalories()
