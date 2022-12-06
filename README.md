@@ -5,3 +5,5 @@
 ## Day 2:
 + For the first part all we had to do is check for all cases and accumulate total points.
 + For the second part it's exactly the same thing just different point count in each case.
+## Day 3:
++ For the first part first we had to divide every single rucksack into two list of halves. From there we had to iterate over every character of the word and find corresponding priority score number.
