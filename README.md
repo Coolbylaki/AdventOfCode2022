@@ -10,3 +10,4 @@
 + For the second part we just check first three rucksacks in our list, find the matching badge, add the score and break the iteration and move on to next pair of three. Simpler than part one!
 ## Day 4:
 + For the first part divide the pairs into two halves. After that just check if both pairs contain each other and accumulate total
++ For the second part divide the pairs into two halves again. After that make helper list and push range of numbers to them. Check if any of the helper list contains any overlapping number,accumulate the total and empty the helper list on end of iteration.
