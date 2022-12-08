@@ -7,4 +7,6 @@
 + For the second part it's exactly the same thing just different point count in each case.
 ## Day 3:
 + For the first part first we had to divide every single rucksack into two list of halves. From there we had to iterate over every character of the word and find corresponding priority score number.
-+ For the second part we just check first three rucksacks in our list, find the matching badge, add the score and break the iteration and move on to next pair of three. Simpler than part one!s
++ For the second part we just check first three rucksacks in our list, find the matching badge, add the score and break the iteration and move on to next pair of three. Simpler than part one!
+## Day 4:
++ For the first part divide the pairs into two halves. After that just check if both pairs contain each other and accumulate total
