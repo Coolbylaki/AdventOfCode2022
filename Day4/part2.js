@@ -1,8 +1,3 @@
-// Uzmem range of prvog para tipa 2-8
-// Napravim list [2,3,4,5,6,7,8]
-// Proverim da li postoji prvi ili drugi broj u listi ako postoji +1
-// Ponovim sve za drugi par ako prvi ne ubode
-
 const fs = require("fs")
 
 const pairs = fs.readFileSync("./data.txt", { encoding: 'utf8', flag: 'r' }).split("\n")
